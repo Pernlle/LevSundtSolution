@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundtSolution", "LevSundtSolution\LevSundtSolution.csproj", "{DD1B7A88-446D-43E1-8BED-DCD5FD6A04EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{C29B427E-119B-486A-8533-579BFFF51085}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BMI", "BMI", "{5FB9BDD5-A258-4E27-AA95-3C6791C548B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.Bmi.Domain", "LevSundt.Bmi.Domain\LevSundt.Bmi.Domain.csproj", "{1C73A3BE-B60E-42B3-AC0C-85939383A988}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.Bmi.Domain.Test", "LevSundt.Bmi.Domain.Test\LevSundt.Bmi.Domain.Test.csproj", "{BE36C189-999E-42DB-B624-445AF5AD43D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.Bmi.Application", "LevSundt.Bmi.Application\LevSundt.Bmi.Application.csproj", "{E4C6EC32-D41E-4F25-B56F-84794EA1ECBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.Bmi.Infrastructor", "LevSundt.Bmi.Infrastructor\LevSundt.Bmi.Infrastructor.csproj", "{4C8C7AF4-D0B1-436E-80C0-09A2DC6F0143}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.SqlServerContext", "LevSundt.SqlServerContext\LevSundt.SqlServerContext.csproj", "{C4260A5B-7B03-4CF2-926A-5E6DFBBDFC0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.SqlServerContextMigrations", "LevSundt.SqlServerContextMigrations\LevSundt.SqlServerContextMigrations.csproj", "{4146FA46-BFAF-4F87-A0BB-C96702EB2402}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.WebApp.UserContext.Migrations", "LevSundt.WebApp.UserContext.Migrations\LevSundt.WebApp.UserContext.Migrations.csproj", "{EA42837D-13B2-4BB2-B98D-A45E9D5C449A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevSundt.WebApp.UserContext", "LevSundt.WebApp.UserContext\LevSundt.WebApp.UserContext.csproj", "{DE51BA4B-1562-4B07-B906-895C8C2F808B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD1B7A88-446D-43E1-8BED-DCD5FD6A04EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1B7A88-446D-43E1-8BED-DCD5FD6A04EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1B7A88-446D-43E1-8BED-DCD5FD6A04EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1B7A88-446D-43E1-8BED-DCD5FD6A04EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C73A3BE-B60E-42B3-AC0C-85939383A988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C73A3BE-B60E-42B3-AC0C-85939383A988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C73A3BE-B60E-42B3-AC0C-85939383A988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C73A3BE-B60E-42B3-AC0C-85939383A988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE36C189-999E-42DB-B624-445AF5AD43D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE36C189-999E-42DB-B624-445AF5AD43D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE36C189-999E-42DB-B624-445AF5AD43D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE36C189-999E-42DB-B624-445AF5AD43D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C6EC32-D41E-4F25-B56F-84794EA1ECBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C6EC32-D41E-4F25-B56F-84794EA1ECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C6EC32-D41E-4F25-B56F-84794EA1ECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C6EC32-D41E-4F25-B56F-84794EA1ECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8C7AF4-D0B1-436E-80C0-09A2DC6F0143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8C7AF4-D0B1-436E-80C0-09A2DC6F0143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8C7AF4-D0B1-436E-80C0-09A2DC6F0143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8C7AF4-D0B1-436E-80C0-09A2DC6F0143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4260A5B-7B03-4CF2-926A-5E6DFBBDFC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4260A5B-7B03-4CF2-926A-5E6DFBBDFC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4260A5B-7B03-4CF2-926A-5E6DFBBDFC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4260A5B-7B03-4CF2-926A-5E6DFBBDFC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4146FA46-BFAF-4F87-A0BB-C96702EB2402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4146FA46-BFAF-4F87-A0BB-C96702EB2402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4146FA46-BFAF-4F87-A0BB-C96702EB2402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4146FA46-BFAF-4F87-A0BB-C96702EB2402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA42837D-13B2-4BB2-B98D-A45E9D5C449A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA42837D-13B2-4BB2-B98D-A45E9D5C449A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA42837D-13B2-4BB2-B98D-A45E9D5C449A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA42837D-13B2-4BB2-B98D-A45E9D5C449A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE51BA4B-1562-4B07-B906-895C8C2F808B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE51BA4B-1562-4B07-B906-895C8C2F808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE51BA4B-1562-4B07-B906-895C8C2F808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE51BA4B-1562-4B07-B906-895C8C2F808B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FB9BDD5-A258-4E27-AA95-3C6791C548B2} = {C29B427E-119B-486A-8533-579BFFF51085}
+		{1C73A3BE-B60E-42B3-AC0C-85939383A988} = {5FB9BDD5-A258-4E27-AA95-3C6791C548B2}
+		{BE36C189-999E-42DB-B624-445AF5AD43D6} = {5FB9BDD5-A258-4E27-AA95-3C6791C548B2}
+		{E4C6EC32-D41E-4F25-B56F-84794EA1ECBB} = {5FB9BDD5-A258-4E27-AA95-3C6791C548B2}
+		{4C8C7AF4-D0B1-436E-80C0-09A2DC6F0143} = {5FB9BDD5-A258-4E27-AA95-3C6791C548B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80EF94FF-7171-4EB4-B578-5220E6633E65}
+	EndGlobalSection
+EndGlobal
